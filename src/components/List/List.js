@@ -8,7 +8,7 @@ const List = (props) => {
     const [data, setData] = useState(null)
 
     React.useEffect(() => {
-        fetch('https://demo9170788.mockable.io/products')
+        fetch('http://demo6591217.mockable.io/products')
             .then(res => res.json())
             .then(data => {
                 setData(data)
